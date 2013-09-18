@@ -13,14 +13,15 @@ Bootstrap My Mac
 	sudo bash < <(curl -L https://raw.github.com/hagzag/my_scripts/master/bootstrap_mac.sh)
 
   Take a closer look this will do:
-  | #  | action      | what ?                  | status ? |
-  |:--:|:------------|:------------------------|:---------|
-  | 1. | install git | [ if it dosent exist ]  | done     |
-  | 2. | install xtools-cli | [ if it dosent exist ]  | done     |
-  | 3. | install ruby via rvm | Ruby version manager | | in progress |
-  | 4. | install chef | Install chef gem | | in progress |
-  | 5. | git clone cookbase | get macosx cookbook | [laptop][1] | in progress |
-  | 6. | run chef solo | Provision node | | in progress |
+
+| #  | action      | what ?                  | status ? |
+|:--:|:------------|:------------------------|:---------|
+| 1. | install git | [ if it dosent exist ]  | done     |
+| 2. | install xtools-cli | [ if it dosent exist ]  | done     |
+| 3. | install ruby via rvm | Ruby version manager | | in progress |
+| 4. | install chef | Install chef gem | | in progress |
+| 5. | git clone cookbase | get macosx cookbook | [laptop][1] | in progress |
+| 6. | run chef solo | Provision node | | in progress |
 
 
 Install Git - supports MACOSX only ...
