@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
-test -f ./common.sh || { curl -L -O https://raw.github.com/cookbase/my_scripts/master/common.sh; } && { source common.sh;}
+test -f ./common.sh || { curl -L -O https://raw.github.com/cookbase/my_scripts/master/common.sh && source common.sh ; } && { source common.sh;}
 
 check_for_git() {
   result=`which git`

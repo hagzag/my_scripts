@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-test -f ./common.sh || { curl -L -O https://raw.github.com/cookbase/my_scripts/master/common.sh; } && { source common.sh;}
+test -f ./common.sh || { curl -L -O https://raw.github.com/cookbase/my_scripts/master/common.sh && source common.sh ; } && { source common.sh;}
 
 check_root
 echo -e "$info Looking for Git ..., if absent will install it ..."
