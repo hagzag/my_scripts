@@ -5,7 +5,7 @@ test -f ./common.sh || { curl -L -O https://raw.github.com/cookbase/my_scripts/m
 
 check_root
 echo -e "$info Looking for Git ..., if absent will install it ..."
-  sudo bash < <(curl -L https://raw.github.com/hagzag/my_scripts/master/install_git.sh)
+  sudo bash < <(curl -L https://raw.github.com/hagzag/my_scripts/master/install_git.sh &>/dev/null)
 echo -e "$info Looking for MAC OSX CLI TOOLS, if absent will install it ..."
-  sudo bash < <(curl -L https://raw.github.com/hagzag/xcode-cli-install/master/install.sh)
+  sudo bash < <(curl -L https://raw.github.com/hagzag/xcode-cli-install/master/install.sh &>/dev/null)
 
