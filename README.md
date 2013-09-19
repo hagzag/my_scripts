@@ -10,7 +10,7 @@ Bootstrap My Mac
   install ruby via rvm then add whats needed to use chef to bootstrap your laptop
   I assume this is a blurprint of an omnibus installer ...
 
-	sudo bash < <(curl -L https://raw.github.com/cookbase/my_scripts/master/bootstrap_mac.sh)
+	sudo bash < <(curl -L https://raw.github.com/cookbase/my_scripts/master/bootstrap_mac.sh 2>/dev/null)
 
   Take a closer look this will do:
 
